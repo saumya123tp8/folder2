@@ -1,0 +1,67 @@
+.box{
+  /* display: flext; */
+  margin-top: 25px;
+  margin-bottom:25px;
+  width: 45%;
+  background-image: url('./bgc1.webp');
+  background-size: cover;
+  background-position: center;
+}
+/* .box2{
+  background-image: url('./bgc1.webp');
+  background-color: rgba(245, 221, 221, 0.9) !important;
+} */
+.box2 {
+  background-image: url('./bgc1.webp');
+  filter: blur(0.2px);
+  z-index: -1;
+  position: absolute;
+  background-size: cover; /* This will ensure the image covers the entire element */
+  background-repeat: no-repeat; /* Prevents repeating the image if the element is larger */
+}
+.box3{
+  /* background-image: url('../pages/bgc2.jpg'); */
+  border-radius: 5px;
+  padding: 2.5px;
+  background-color: rgba(35, 203, 222, 0.3);
+}
+@media (min-width: 768px) {
+    .box {
+      margin-top:25px;
+      margin-bottom:25px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 100%; /* Set your desired max width for the card container */
+      margin: 0 auto;
+    }
+    
+    .card {
+      width: calc(60% - 10px); /* Subtract margin or padding as needed */
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .box{
+      margin-bottom:25px;
+      width: 32%;
+      background-image: url('./bgc1.webp');
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  @media (max-width: 767px) {
+    .box {
+      /* padding: 2; */
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      /* max-width: 100%; Set your desired max width for the card container */
+      /* margin: 0 auto; */
+      margin-top:'10px';
+    }
+    .card {
+      width: calc(100% - 10px); /* Subtract margin or padding as needed */
+      margin-bottom: 20px;
+    }
+  }

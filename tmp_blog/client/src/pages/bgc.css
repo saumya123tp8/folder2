@@ -1,0 +1,44 @@
+.create{
+  
+  background-image: url('./bgc2.jpg');
+}
+/* .create1{
+background-color: brown;
+} */
+.form1{
+  background-image: url('../components/bgc1.webp');
+}
+@media (min-width: 768px) {
+    .over {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width:100%; /* Set your desired max width for the card container */
+      margin: 0 auto;
+    }
+  }
+@media (max-width: 767px) {
+    .over {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width:100%; /* Set your desired max width for the card container */
+      margin: 0 auto;
+    }
+    .create{
+      width: 100%!important;
+      margin-left: 1px;
+      margin-right: 1px;
+    }
+  }
+  .over{
+    background-image: url('./bgc2.jpg');
+    /* background-size: cover;
+    background-position: center; */
+  }
+.card1{
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 28px !important;
+  border-bottom-left-radius: 28px !important;
+  border-bottom-right-radius: 28px !important;
+}

@@ -1,0 +1,6 @@
+.background-image {
+    background-image: url('../src/components/bgc1.webp');
+    /* background-size: cover;
+    background-position: center; */
+    color: brown;
+  }
